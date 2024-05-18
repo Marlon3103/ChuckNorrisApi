@@ -1,0 +1,104 @@
+header {
+    text-align: center;
+    background-color: rgb(212, 16, 127);
+    border: 5px solid black;
+
+}
+
+header img {
+    width: 10rem;
+    margin-top: 5px;
+
+}
+
+body {
+    background-color: #6F8FED;
+}
+
+.chuck {
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    margin-top: 10px;
+
+
+}
+
+button {
+    background-color: white;
+    border-radius: 105px;
+    border: 3px solid black;
+
+
+}
+
+button:hover {
+    background-color: #6F8FED;
+    border-radius: 105px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+.restart {
+    margin: 3px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.restart:hover {
+    background-color: black;
+
+}
+
+
+.container {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+
+
+}
+
+.cargando {
+    color: black;
+    font-size: 30px;
+
+}
+
+.img {
+    width: 150px;
+    border-radius: 100px;
+
+}
+
+.container i {
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 105px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    display: none;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container:hover {
+    opacity: 0.8;
+
+}
